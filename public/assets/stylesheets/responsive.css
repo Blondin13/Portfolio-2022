@@ -336,8 +336,51 @@
     } 
 }
 
+/*-----------------------------------630PX------------------------------------------*/
+@media screen and (max-width: 630px){
+    /*-----------------------------------PROJETS------------------------------------*/
+    .main-projets{
+        margin-top: 160px;
+    }
+
+    .article-projets input{
+        margin-left: 160px;
+    }
+    
+    .div-card{
+        margin-top: 20px;
+    }
+
+    /*----------------------------------CAROUSEL------------------------------------*/     
+    main#carousel{
+        width: 320% !important;
+        margin-left: 180px !important;
+        height: 600px;  
+    }
+}
+
 /*-----------------------------------580PX------------------------------------------*/
 @media screen and (max-width: 580px){
+
+    /*---------------------------------PROJETS--------------------------------------*/
+    .main-projets{
+        margin-top: 10px;
+    }
+
+    .article-projets input{
+        margin-left: 110px;
+    }
+    
+    .div-card{
+        margin-top: 10px;
+    }
+
+    /*--------------------------------CAROUSEL--------------------------------------*/     
+    main#carousel{
+        width: 280% !important;
+        margin-left: 165px !important;
+        height: 600px;  
+    }
     /*-------------------------------------CV---------------------------------------*/
     .photo-moi{
         width: 200px !important;
@@ -465,7 +508,7 @@
 
     /*---------------------------------PROJETS--------------------------------------*/
     .main-projets{
-        margin-top: 10px;
+        margin-top: 80px;
     }
 
     .article-projets input{
@@ -498,27 +541,27 @@
 }
 
 /*-----------------------------------395PX------------------------------------------*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 395px){
     /*-----------------------------------INDEX--------------------------------------*/
     .article-index{
         margin-bottom: 30px !important;
     }
     /*----------------------------------PROJETS-------------------------------------*/
     .main-projets{
-        margin-top: 0px;
+        margin-top: 80px;
     }
 
     .article-projets input{
         margin-top: 0px;
         margin-bottom: 90px !important;
-        margin-left: 60px;
+        margin-left: 90px;
     }
     
 
     /*---------------------------------CAROUSEL-------------------------------------*/     
     main#carousel{
-        width: 200% !important;
-        margin-left: 120px;
+        width: 190% !important;
+        margin-left: 120px !important;
         height: 500px;
         margin-top: 0px; 
     }
