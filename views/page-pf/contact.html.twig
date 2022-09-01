@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+    {% block header %}
+    	{% include "/nav-bar/nav-bar.html.twig" with {'active' : 'accueil'} %}
+    {% endblock %}
+
+    {% block main %}
+		<main class="main-contact container">
+            <article class="article-contact-img"><img class="img-contact" src="/assets/img/contact.png"</article>
+            <article class="article-contact">
+                <form id="cont" action="/contact" method="post">
+                    <fieldset>
+                        <legend><b>Me contacter</b></legend>
+                        <label for="emailinput"><b>Votre email</b></label>
+                        <input type="text" name="email" id="emailinput" placeholder="Contact@exemple.com" />
+                        <label for="nameinput"><b>Votre nom</b></label>
+                        <input type="text" name="fisrtname" id="nameinput" placeholder="Dupont" />
+                        <br />
+                        <div>
+                            <label for="message"><b>Votre message</b></label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message.........."></textarea>
+                        </div>
+                        <button><b>Envoyer votre message</b></button>
+                    </fieldset>
+                </form>
+            </article>
+        </main>
+        <div clas="div-affiche-message">
+            <span class="span-affiche-message">{{message}}</span>
+        </div>     
+    {% endblock %}
+    
+    {% block footer %}
+        {% include "/footer/footer.html.twig" %}
+    {% endblock %}
+
