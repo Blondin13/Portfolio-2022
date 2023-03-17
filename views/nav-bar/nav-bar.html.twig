@@ -17,17 +17,17 @@
         <div class="div-navbar collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="text-end navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">ACCUEIL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projets">PROJETS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/cv">CURRICULUM-VITAE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">CONTACT</a>
-                </li>
+					<a class="nav-link {% if active == '/' %}active{% endif %}" href="/">ACCUEIL</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if active == '/projets' %}active{% endif %}" href="/projets">PROJETS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if active == '/cv' %}active{% endif %}" href="/cv">CURRICULUM-VITEA</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if active == '/contact' %}active{% endif %}" href="/contact">CONTACT</a>
+				</li>
             </ul>
         </div>
     </div>
