@@ -115,7 +115,7 @@ h1 {
 main#carousel {
     grid-row: 1 / 2;
     grid-column: 1 / 8;
-    width: 100%;
+    width: 120%;
     margin-left: 85%;
     height: 600px;
     display: flex;
